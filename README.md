@@ -5,9 +5,9 @@ In this project, two programs can help you take full agvantage of time on the mo
 ### notice.py
 In this program, the notification to be pushed can be conducted based the IFTTT App on your phone, and the Webhooks can help the trigger setting. Firstly, you shoule login the IFTTT and create a new applet with the trigger of 'Receive a web request'. Then, you should setting an Event Name, one of two parameters needed in this porgrame. Next, you should choose the notification as the response for that trigger. After the format setting, you can click 'Finish' for next phase. Clicking the Webhooks icon you will get your personal Key in the 'Documentation', another parameter in notice.py. And replace the parameters in code, you can get the notification on your phone.
 ### GPU_pm.py
-This is a programe which can monitoring specified process on GPU. Firstly, you should know the PID by 'nvidia-smi' on terminal. After typing the PID, the programe will monitor the state of this process, which will notices you when the process over or be killed.
+This is a program which can monitoring specified process on GPU. Firstly, you should know the PID by 'nvidia-smi' on terminal. After typing the PID, the program will monitor the state of this process, which will notices you when the process over or be killed.
 
 ## How to use?
 1. Seeting the parameters in notice.py.
-2. Run your own deeplearning programe.
-3. Run GPU_pm.py and type in the PID of your own programe.
+2. Run your own deeplearning program.
+3. Run GPU_pm.py and type in the PID of your own program.
