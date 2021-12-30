@@ -9,9 +9,17 @@ In this project, two programs can help you take full agvantage of time on the mo
 In this program, the notification to be pushed can be conducted based the IFTTT App on your phone, and the Webhooks can help the trigger setting. Firstly, you shoule login the IFTTT and create a new applet with the trigger of 'Receive a web request'. Then, you should setting an Event Name, one of two parameters needed in this porgrame. Next, you should choose the notification as the response for that trigger. After the format setting, you can click 'Finish' for next phase. Clicking the Webhooks icon you will get your personal Key in the 'Documentation', another parameter in notice.py. And replace the parameters in code, you can get the notification on your phone.
 
 <div align=center>
-<img src="https://github.com/Gray-OREO/Deeplearning-Noticer/blob/main/images/a.PNG" width="300px"><img src="https://github.com/Gray-OREO/Deeplearning-Noticer/blob/main/images/b.jpg" width="300px">
+<img src="https://github.com/Gray-OREO/Deeplearning-Noticer/blob/main/images/a.PNG" width="340px">　　　　　　<img src="https://github.com/Gray-OREO/Deeplearning-Noticer/blob/main/images/b.PNG" width="300px">
 </div>
-Message format for the notification.
+<p align="center">
+Message format for the notification.　　　　　　　　　　　Setting of 'If This' and 'Then That'
+</p>
+<div align=center>
+<img src="https://github.com/Gray-OREO/Deeplearning-Noticer/blob/main/images/d.jpg" width="280px">　　　　　　<img src="https://github.com/Gray-OREO/Deeplearning-Noticer/blob/main/images/e.jpg" width="300px">
+</div>
+<p align="center">
+Click Webhooks icon for 'Documentation'.　　　Find the personal Key as a parameter of notice.py
+</p>
 
 ### GPU_pm.py
 This is a program which can monitoring specified process on GPU. Firstly, you should know the PID by 'nvidia-smi' on terminal. After typing the PID, the program will monitor the state of this process, which will notices you when the process over or be killed.
