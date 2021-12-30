@@ -25,6 +25,6 @@ Click Webhooks icon for 'Documentation'.　　　Find the personal Key as a para
 This is a program which can monitoring specified process on GPU. Firstly, you should know the PID by 'nvidia-smi' on terminal. After typing the PID, the program will monitor the state of this process, which will notices you when the process over or be killed.
 
 ## How to use?
-1. Setting two parameters in notice.py.
+1. Replace two parameters in notice.py.
 2. Run your own deeplearning program.
 3. Run GPU_pm.py and type in the PID of your own program.
