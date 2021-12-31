@@ -28,3 +28,4 @@ This is a program which can monitoring specified process on GPU. Firstly, you sh
 1. Replace two parameters in notice.py.
 2. Run your own deeplearning program.
 3. Run GPU_pm.py and type in the PID of your own program.
+4. You can also only use notice.py for information notification during model training.
