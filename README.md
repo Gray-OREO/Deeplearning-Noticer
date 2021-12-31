@@ -6,7 +6,7 @@ In this project, two programs can help you take full agvantage of time on the mo
 
 ## What's them?
 ### notice.py
-In this program, the notification to be pushed can be conducted based the IFTTT App on your phone, and the Webhooks can help the trigger setting. Firstly, you shoule login the IFTTT and create a new applet with the trigger of 'Receive a web request'. Then, you should setting an Event Name, one of two parameters needed in this porgrame. Next, you should choose the notification as the response for that trigger. After the format setting, you can click 'Finish' for next phase. Clicking the Webhooks icon you will get your personal Key in the 'Documentation', another parameter in notice.py. And replace the parameters in code, you can get the notification on your phone.
+In this program, the notification to be pushed can be conducted based the IFTTT App on your phone, and the Webhooks can help the trigger setting. Firstly, you shoule login the IFTTT and create a new applet with the trigger of 'Receive a web request'. Then, you should setting an Event Name, one of two parameters needed in this porgrame. Next, you should choose the notification as the response for that trigger. After the format setting, you can click 'Finish' for next phase. Clicking the Webhooks icon you will get personal Key in the 'Documentation', another parameter in notice.py. And replace the parameters in code, you can get the notification on your phone.
 
 <div align=center>
 <img src="https://github.com/Gray-OREO/Deeplearning-Noticer/blob/main/images/a.PNG" width="340px">　　　　　　<img src="https://github.com/Gray-OREO/Deeplearning-Noticer/blob/main/images/b.PNG" width="300px">
